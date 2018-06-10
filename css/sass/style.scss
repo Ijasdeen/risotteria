@@ -1,34 +1,82 @@
-$dark-overlay:rgba(0,0,0,0.7);
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300,500,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+$dark-overlay:rgba(0,
+0,
+0,
+0.7);
 
-.container-fluid{
+.container-fluid {
     padding: 0px 0px 0px 0px !important;
 }
 
-nav{
-    
-    background-color: $dark-overlay !important; 
-     display: block;
+nav {
+    font-family: 'Sunflower', sans-serif;
+    display: block;
+    background-color: transparent !important;
     height: 75px !important;
-    transition: all 0.4s ease; 
-    .navbar-brand{
-        img{
+    .navbar-brand {
+        img {
             max-width: 100px;
             max-height: 100px;
         }
     }
-    
-    ul{
-        li{
-            a{
-                color: white !important;
+    ul {
+        li {
+            a {
+                transition: all 0.2s ease-in-out !important;
+
+            }
+            a:hover {
+                transition: all 0.2s ease-in-out !important;
+                color: orange !important;
+                font-family: 'Merriweather', serif;
             }
         }
     }
 }
 
-.hero-section{
-    background: url('../images/hero-sectionImg.jpg') no-repeat; 
-    min-height: 300px !important;
-    background-size: cover; 
-    background-attachment: fixed; 
+.hero-section {
+    background: url('../images/hero-sectionImg.jpg') no-repeat;
+    min-height: 620px;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .restaurant-title {
+        font-family: 'Merriweather', serif;
+        position: absolute;
+        margin-left: 20%;
+        margin-top: 150px;
+        color: white;
+        font-weight: 800;
+        font-size: 80px !important;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+}
+
+.dark-overlay {
+    background-color: $dark-overlay;
+    position: absolute;
+    top: 30;
+    left: 0;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 620px;
+}
+
+.backround-section {
+    background-color: rgb(239, 238, 233);
+    height: 500px;
+    width: 100%;
+
+    .container {
+        .section-bg {
+             background-color: blue; 
+            max-width: 1040px;
+            height: 100%; 
+            
+        }
+    }
+
 }
