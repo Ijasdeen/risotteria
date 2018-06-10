@@ -1,9 +1,8 @@
 <?php require_once('layouts/header.php')?>
-  
-   <div class="container">
-       <h3 class="text text-danger">How are you </h3>
-   </div> 
-   
+  <div class="container-fluid">
+   <div class="hero-section"></div>
+  </div>
+      
    <?php require_once('layouts/footer.php')?>
     
    

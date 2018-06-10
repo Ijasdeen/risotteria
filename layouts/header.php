@@ -8,3 +8,25 @@
     <title>risotterira copia</title>
 </head>
 <body>
+<header>
+    <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container">
+                <a href="index.php" class="navbar-brand">
+    <img src="images/logi.JPG" alt="Logo" class="img-fluid">
+        </a>
+         <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 3</a>
+    </li>
+  </ul>
+
+
+    </div>
+    </nav>
+</header>
