@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 @import url("https://fonts.googleapis.com/css?family=Merriweather");
 @import url("https://fonts.googleapis.com/css?family=Cabin+Sketch");
+@import url("https://fonts.googleapis.com/css?family=Vidaloka");
 .container-fluid {
   padding: 0px 0px 0px 0px !important; }
 
@@ -154,11 +155,14 @@ nav {
   margin-top: 60px !important;
   padding-bottom: 30px;
   max-width: 1040px;
-  height: 4000px;
+  height: 100%;
   background-color: whitesmoke;
   z-index: 1;
   position: relative;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1) !important; }
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1) !important;
+  font-family: 'Vidaloka', serif; }
+  .rice-paddies h2 b {
+    color: orange; }
   .rice-paddies .page-heading h2:after {
     content: "";
     background-color: rgba(0, 0, 0, 0.25);
@@ -168,5 +172,7 @@ nav {
     width: 60px;
     margin-left: 45%;
     margin-top: 17px; }
+  .rice-paddies .content {
+    font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */

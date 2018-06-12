@@ -158,8 +158,24 @@
               <div class="rice-paddies">
                   <div class="container">
                       <div class="page-heading text text-center py-5">
-                           <h2>Our educational <b>RICE PADDIES</b></h2>
-                      </div>
+                           <h2>Our educational <b>RICE PADDIES</b><br><p>at <b>Randall's Island Park</b> in New York</p></h2>
+                       </div>
+                       <div class="row px-5">
+                           <div class="col-md-7">
+                               <div class="img-area">
+                                   <img src="images/paddy-rice.PNG" alt="Paddy field" class="img-fluid">
+                               </div>
+                           </div>
+                           <div class="col-md-3">
+                               <div class="content">
+                                   <p>
+                                   The Melotti staff, in collaboration with the Randall's island Association, organizes RICE CLASSES at Randall's Island Park in New York!
+                                </p>
+                                <h5 class="py-2"><b>COME TO VISIT US</b></h5>
+                                <p>For information : <span>nick.storrs@randallsisland.org</span></p>
+                               </div>
+                           </div>
+                       </div>
                   </div>
               </div>
           </div>

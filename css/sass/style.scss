@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
-
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
 $dark-overlay:rgba(0,
 0,
 0,
@@ -221,12 +221,17 @@ nav {
     margin-top: 60px !important;
     padding-bottom: 30px;
     max-width: 1040px;
-    height: 4000px;
+    height: 100%;
     background-color: rgb(245, 245, 245);
     z-index: 1;
     position: relative;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1) !important;
-
+    font-family: 'Vidaloka', serif;
+    h2{
+        b{
+            color:orange;
+        }
+    }
     .page-heading {
         h2:after {
             content: "";
@@ -238,5 +243,8 @@ nav {
             margin-left: 45%;
             margin-top: 17px;
         }
+    }
+    .content{
+        font-size: 20px;
     }
 }
