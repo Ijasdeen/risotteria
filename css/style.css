@@ -127,4 +127,46 @@ nav {
   .other-risottors .extra-desc {
     font-family: 'Cabin Sketch', cursive; }
 
+.enjoy-cuishine {
+  margin-top: 60px !important;
+  padding-bottom: 30px;
+  max-width: 1040px;
+  height: 100%;
+  background-color: whitesmoke;
+  z-index: 1;
+  position: relative;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1) !important; }
+  .enjoy-cuishine .inner-side {
+    font-family: 'Merriweather', serif;
+    padding-top: 120px;
+    padding-left: 3%; }
+    .enjoy-cuishine .inner-side h2 {
+      font-weight: 300;
+      font-size: 30px !important;
+      border-bottom: 5px solid grey !important; }
+    .enjoy-cuishine .inner-side img {
+      width: 200px;
+      height: 200px; }
+  .enjoy-cuishine .img-container {
+    padding-top: 40px; }
+
+.rice-paddies {
+  margin-top: 60px !important;
+  padding-bottom: 30px;
+  max-width: 1040px;
+  height: 4000px;
+  background-color: whitesmoke;
+  z-index: 1;
+  position: relative;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1) !important; }
+  .rice-paddies .page-heading h2:after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.25);
+    display: block;
+    bottom: 0;
+    height: 5px;
+    width: 60px;
+    margin-left: 45%;
+    margin-top: 17px; }
+
 /*# sourceMappingURL=style.css.map */

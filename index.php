@@ -84,47 +84,88 @@
                 </div>
                 <!--<//Section bg>-->
             </div>
-            
-            
+
+
             <div class="container">
-            <div class="other-risottors">
+                <div class="other-risottors">
                     <div class="inner-section">
                         <div class="col-md-12">
-                        <div class="header-section text text-center">
-                           <h1 class="text text-danger">OTHERS RISOTTOS FOR YOU!</h1>
+                            <div class="header-section text text-center">
+                                <h1 class="text text-danger">OTHERS RISOTTOS FOR YOU!</h1>
+                            </div>
                         </div>
-                    </div>
-                    <div class="container other-risottors-content-area">
-                        <div class="row">
-                        <div class="col-md-6">
-                        <div class="description text-center">
-                            <p>Following the new opening of </p>
-                            <p>"Risotteria Melotti Roma":</p>
-                            <h3>RISOTTO CACIO E PEPE</h3>
+                        <div class="container other-risottors-content-area">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="description text-center">
+                                        <p>Following the new opening of </p>
+                                        <p>"Risotteria Melotti Roma":</p>
+                                        <h3>RISOTTO CACIO E PEPE</h3>
+                                    </div>
+                                    <div class="img-side">
+                                        <img src="images/casicoCheesePepper.PNG" alt="casicoCheesePepper" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="description text-center">
+                                        <p>Our traditional RISOTTO </p>
+                                        <p>SERVED IN AN TRADITIONAL POT </p>
+                                        <h2>'PENTOLINO'</h2>
+                                    </div>
+                                    <div class="img-side">
+                                        <img src="images/allIsolana.PNG" alt="AllIsolona" class="img-fluid">
+                                    </div>
+                                    <br/><br/>
+                                    <p class="text text-muted extra-desc">AS WELL AS MAMMA ROSETTA WOULD SERVE IT IN ITALY!</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="img-side">
-                            <img src="images/casicoCheesePepper.PNG" alt="casicoCheesePepper" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                       <div class="description text-center">
-                           <p>Our traditional RISOTTO </p>
-                           <p>SERVED IN AN TRADITIONAL POT </p>
-                           <h2>'PENTOLINO'</h2>
-                       </div>
-                        <div class="img-side">
-                            <img src="images/allIsolana.PNG" alt="AllIsolona" class="img-fluid">
-                        </div>
-                        <br/><br/>
-                        <p class="text text-muted extra-desc">AS WELL AS MAMMA ROSETTA WOULD SERVE IT IN ITALY!</p>
-                    </div>
-                    </div>
-                    </div>
                     </div>
                 </div>
-            </div>
-        
-          </section>
+            </div> <!--<//Other risottors>-->
+            
+            <div class="container">
+                   <div class="enjoy-cuishine">
+                    <div class="inner-side">
+               <h2 class="text text-center headline">ENJOY OUR CUISINE</h2>
+                      <div class="container img-container">
+                          <div class="row">
+                              <div class="col-md-4">
+                                  <div class="img-side">
+                                      <img src="images/spoon.jpg" alt="sppon" class="img-fluid rounded-circle">
+                                  </div>
+                                  <h3 class="py-3 px-3">RESERVATION</h3>
+                              </div>
+                              <div class="col-md-4">
+                                  <div class="img-side">
+                                      <img src="images/Telephone.jpg" alt="Telephone" class="img-fluid rounded-circle">
+                                   </div>
+                                   <h3 class="py-3 px-5">CALL US</h3>
+                              </div>
+                              <div class="col-md-4">
+                                  <div class="img-side">
+                                      <img src="images/OrderDelivery.jpg" alt="Order telephone" class="img-fluid rounded-circle">
+                                  </div>
+                                  <h3 class="py-3 px-5">ORDER A DELIVERY</h3>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--<//Enjoy cuishine>-->
+            
+          <div class="container">
+              <div class="rice-paddies">
+                  <div class="container">
+                      <div class="page-heading text text-center py-5">
+                           <h2>Our educational <b>RICE PADDIES</b></h2>
+                      </div>
+                  </div>
+              </div>
+          </div>
+            
+            
+        </section>
     </div>
 
 </main>
