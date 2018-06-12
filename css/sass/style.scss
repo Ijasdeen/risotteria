@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Sunflower:300,500,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-$dark-overlay:rgba(0,
-0,
-0,
-0.7);
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+
+$dark-overlay:rgba(0,0,0,0.7);
 
 .container-fluid {
     padding: 0px 0px 0px 0px !important;
@@ -130,10 +130,14 @@ nav {
 }
 
 .other-risottors{
+    .inner-section{
+     font-family: 'Merriweather', serif;   
+    }
+    
     margin-top: 60px !important;
      padding-bottom: 30px;
     max-width: 1040px;
-    height: 4000px;
+    height:100%; 
     background-color:rgb(255, 255, 224);
     z-index: 1;
     position: relative;
@@ -154,5 +158,22 @@ nav {
         margin-left: 45%; 
         margin-top: 17px;
         }
+    }
+    .description{
+        padding-top: 30px;
+    }
+    .other-risottors-content-area{
+        padding-left: 40px;
+      
+    }
+    .img-side{
+        padding-top: 40px;
+        img{
+            max-width: 80%; 
+        }
+    }
+    
+    .extra-desc{ 
+    font-family: 'Cabin Sketch', cursive;
     }
 }
