@@ -319,6 +319,21 @@ nav {
 
 }
 
+.menu-hero-section{
+        background: url('../images/menu-heroSectionImg.jpg') no-repeat;
+    min-height: 620px;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.menu-dark-overlay{
+    background-color: $dark-overlay;
+    min-height: 620px;
+    background-size: cover; 
+    background-attachment: fixed; 
+}
+
 footer{
      position: relative;
      z-index: 0; 
