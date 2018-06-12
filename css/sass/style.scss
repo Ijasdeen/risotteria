@@ -232,6 +232,11 @@ nav {
             color:orange;
         }
     }
+     
+    .img-area{
+        padding-bottom: 40px;
+    }
+    
     .page-heading {
         h2:after {
             content: "";
@@ -246,5 +251,44 @@ nav {
     }
     .content{
         font-size: 20px;
+    }
+}
+
+.opening-times{
+    margin-top: 60px !important;
+    padding-bottom: 30px;
+    max-width: 1040px;
+    height: 4000px;
+    background-color: rgb(249, 234, 227);
+    z-index: 1;
+    position: relative;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1) !important;
+    font-family: 'Vidaloka', serif;
+    
+    
+    .inner-section{
+      padding-top:80px;
+      padding-left: 3%;
+        
+        h1:after{
+            content: "";
+            background-color: rgba(0, 0, 0, .25);
+            display: block;
+            bottom: 0;
+            height: 5px;
+            width: 60px;
+            margin-left: 40%;
+            margin-top: 17px;
+        }
+        p{
+            padding-top: 25px;
+        }
+    }
+    
+    .social-media-area{
+        .fa{
+            font-size: 30px;
+            padding: 5px;
+        }
     }
 }

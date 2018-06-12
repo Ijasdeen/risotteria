@@ -6,7 +6,10 @@
     <link rel="shortcut icon" href="http://files.risotteriamelottinyc.com/200000406-8600187037/logo risotterira copia - Copia.JPG">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>risotterira copia</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/FontAwesome.otf">
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+         <title>risotterira copia</title>
 </head>
 
 <body>

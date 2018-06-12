@@ -122,65 +122,92 @@
                         </div>
                     </div>
                 </div>
-            </div> <!--<//Other risottors>-->
-            
+            </div>
+            <!--<//Other risottors>-->
+
             <div class="container">
-                   <div class="enjoy-cuishine">
+                <div class="enjoy-cuishine">
                     <div class="inner-side">
-               <h2 class="text text-center headline">ENJOY OUR CUISINE</h2>
-                      <div class="container img-container">
-                          <div class="row">
-                              <div class="col-md-4">
-                                  <div class="img-side">
-                                      <img src="images/spoon.jpg" alt="sppon" class="img-fluid rounded-circle">
-                                  </div>
-                                  <h3 class="py-3 px-3">RESERVATION</h3>
-                              </div>
-                              <div class="col-md-4">
-                                  <div class="img-side">
-                                      <img src="images/Telephone.jpg" alt="Telephone" class="img-fluid rounded-circle">
-                                   </div>
-                                   <h3 class="py-3 px-5">CALL US</h3>
-                              </div>
-                              <div class="col-md-4">
-                                  <div class="img-side">
-                                      <img src="images/OrderDelivery.jpg" alt="Order telephone" class="img-fluid rounded-circle">
-                                  </div>
-                                  <h3 class="py-3 px-5">ORDER A DELIVERY</h3>
-                              </div>
-                          </div>
+                        <h2 class="text text-center headline">ENJOY OUR CUISINE</h2>
+                        <div class="container img-container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="img-side">
+                                        <img src="images/spoon.jpg" alt="sppon" class="img-fluid rounded-circle">
+                                    </div>
+                                    <h3 class="py-3 px-3">RESERVATION</h3>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="img-side">
+                                        <img src="images/Telephone.jpg" alt="Telephone" class="img-fluid rounded-circle">
+                                    </div>
+                                    <h3 class="py-3 px-5">CALL US</h3>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="img-side">
+                                        <img src="images/OrderDelivery.jpg" alt="Order telephone" class="img-fluid rounded-circle">
+                                    </div>
+                                    <h3 class="py-3 px-5">ORDER A DELIVERY</h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div> <!--<//Enjoy cuishine>-->
-            
-          <div class="container">
-              <div class="rice-paddies">
-                  <div class="container">
-                      <div class="page-heading text text-center py-5">
-                           <h2>Our educational <b>RICE PADDIES</b><br><p>at <b>Randall's Island Park</b> in New York</p></h2>
-                       </div>
-                       <div class="row px-5">
-                           <div class="col-md-7">
-                               <div class="img-area">
-                                   <img src="images/paddy-rice.PNG" alt="Paddy field" class="img-fluid">
-                               </div>
-                           </div>
-                           <div class="col-md-3">
-                               <div class="content">
-                                   <p>
-                                   The Melotti staff, in collaboration with the Randall's island Association, organizes RICE CLASSES at Randall's Island Park in New York!
-                                </p>
-                                <h5 class="py-2"><b>COME TO VISIT US</b></h5>
-                                <p>For information : <span>nick.storrs@randallsisland.org</span></p>
-                               </div>
-                           </div>
-                       </div>
-                  </div>
-              </div>
-          </div>
-            
-            
+            </div>
+            <!--<//Enjoy cuishine>-->
+
+            <div class="container">
+                <div class="rice-paddies">
+                    <div class="container">
+                        <div class="page-heading text text-center py-5">
+                            <h2>Our educational <b>RICE PADDIES</b><br>
+                                <p>at <b>Randall's Island Park</b> in New York</p>
+                            </h2>
+                        </div>
+                        <div class="row px-5">
+                            <div class="col-md-7 col-xs-12">
+                                <div class="img-area">
+                                    <img src="images/paddy-rice.PNG" alt="Paddy field" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="content">
+                                    <p>
+                                        The Melotti staff, in collaboration with the Randall's island Association, organizes RICE CLASSES at Randall's Island Park in New York!
+                                    </p>
+                                    <h5 class="py-2"><b>COME TO VISIT US</b></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--<//Rice Paddies>-->
+
+            <div class="container">
+                <div class="opening-times text-center">
+                    <div class="inner-section">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h1 class="text text-danger">Follow us!</h1>
+                                <p><strong>STAY IN CONTACT WITH US</strong></p>
+                                <p><strong>AND SHARE OUR PASSION.</strong></p>
+                                <div class="social-media-area px-5">
+                                    <div class="d-flex flex-row  text-center">
+                                        <div class="p-2"><a href="https://www.facebook.com/RisotteriaMelottiNYC" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+                                        <div class="p-2"><a href="https://twitter.com/RisotteriaM_NYC" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+                                        <div class="p-2"><a href="https://www.instagram.com/risotteriamelottinyc/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <h1 class="text text-danger">Opening times</h1>
+                            </div>
+                            <div class="col-md-4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
 
