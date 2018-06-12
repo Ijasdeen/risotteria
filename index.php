@@ -198,12 +198,36 @@
                                         <div class="p-2"><a href="https://twitter.com/RisotteriaM_NYC" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
                                         <div class="p-2"><a href="https://www.instagram.com/risotteriamelottinyc/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
                                     </div>
+
+                                </div>
+                                <div class="btn-area py-2 px-2">
+                                    <a href="javascript:void(0);" class="btn">Newsletter</a>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <h1 class="text text-danger">Opening times</h1>
+                                <p><b>Monday - Friday</b><br/>
+                                    <span>12:00 PM - 10:30 PM</span>
+                                </p>
+                                <p><b>Saturday - Sunday</b><br/>
+                                    <span>11:30 AM - 11:30 PM</span>
+                                </p>
+                                <p>Phone : <a href="tel:+016467558939">+016467558939</a></p>
+                                <div class="d-flex flex-row px-5">
+                                    <div class="p-2">
+                                        <a href="https://www.tripadvisor.it/Restaurant_Review-g60763-d5497083-Reviews-Risotteria_Melotti_NYC-New_York_City_New_York.html" target="_blank"><img src="images/tripAdvisor.PNG" alt="Trip advisor" class="img-fluid"></a>
+                                    </div>
+                                    <div class="p-2">
+                                    <a href="https://www.ubereats.com/en-US/new-york/" target="_blank"><img src="images/uber.PNG" alt="Uber eats" class="img-fluid"></a>    
+                                    </div>
+                                    <div class="p-2">
+                                    <a href="https://www.yelp.com/biz/risotteria-melotti-nyc-new-york-3" target="_blank"><img src="images/yelp.PNG" alt="Yelp" class="img-fluid"></a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-4"></div>
+                            <div class="col-md-4" style="padding-top:0px">
+                                <div class="mapouter"><div class="gmap_canvas"><iframe width="306" height="489" id="gmap_canvas" src="https://maps.google.com/maps?q=309%20E%205th%20St%20New%20York%2C%20NY%2010003%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">webdesign: pureblack.de</a></div><style>.mapouter{text-align:right;height:100%;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:489px;width:306px;}</style></div>
+                            </div>
                         </div>
                     </div>
                 </div>

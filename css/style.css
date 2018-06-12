@@ -181,12 +181,19 @@ nav {
   margin-top: 60px !important;
   padding-bottom: 30px;
   max-width: 1040px;
-  height: 4000px;
+  height: 100%;
   background-color: #f9eae3;
   z-index: 1;
   position: relative;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1) !important;
   font-family: 'Vidaloka', serif; }
+  .opening-times .btn {
+    padding: 30px;
+    border: 2px solid black;
+    width: 100%; }
+  .opening-times .btn:hover {
+    background-color: lightgray;
+    color: white; }
   .opening-times .inner-section {
     padding-top: 80px;
     padding-left: 3%; }
@@ -202,7 +209,19 @@ nav {
     .opening-times .inner-section p {
       padding-top: 25px; }
   .opening-times .social-media-area .fa {
+    color: black;
     font-size: 30px;
-    padding: 5px; }
+    padding: 5px;
+    padding-left: 50%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+  .opening-times .social-media-area .fa:hover {
+    font-size: 35px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */
