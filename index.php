@@ -183,7 +183,7 @@
                 </div>
             </div>
             <!--<//Rice Paddies>-->
-
+                
             <div class="container">
                 <div class="opening-times text-center">
                     <div class="inner-section">
@@ -225,14 +225,15 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4" style="padding-top:0px">
-                                <div class="mapouter"><div class="gmap_canvas"><iframe width="306" height="489" id="gmap_canvas" src="https://maps.google.com/maps?q=309%20E%205th%20St%20New%20York%2C%20NY%2010003%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">webdesign: pureblack.de</a></div><style>.mapouter{text-align:right;height:100%;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:489px;width:306px;}</style></div>
+                            <div class="col-md-4">
+                                <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=309%20E%205th%20St%20New%20York%2C%20NY%2010003%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">webdesign: pureblack.de</a></div><style>.mapouter{text-align:right;height:100%;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </div> <!--<//Opening details>-->
+        
+         </section>
     </div>
 
 </main>
