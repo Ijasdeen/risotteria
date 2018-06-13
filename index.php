@@ -5,8 +5,7 @@
             <div class="dark-overlay"></div>
             <div class="restaurant-title">
                 <p>Risotteria Melotti NYC</p>
-
-            </div>
+             </div>
         </div>
         <section class="backround-section">
             <div class="container">

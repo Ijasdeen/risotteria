@@ -39,6 +39,9 @@ nav {
     }
 }
 
+
+
+
 .hero-section {
     background: url('../images/hero-sectionImg.jpg') no-repeat;
     min-height: 620px;
@@ -72,7 +75,7 @@ nav {
 
 .backround-section {
     background-color: rgb(239, 238, 233);
-    height:100%;
+    height: 100%;
     width: 100%;
 
 }
@@ -227,16 +230,16 @@ nav {
     position: relative;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1) !important;
     font-family: 'Vidaloka', serif;
-    h2{
-        b{
-            color:orange;
+    h2 {
+        b {
+            color: orange;
         }
     }
-     
-    .img-area{
+
+    .img-area {
         padding-bottom: 40px;
     }
-    
+
     .page-heading {
         h2:after {
             content: "";
@@ -249,12 +252,12 @@ nav {
             margin-top: 17px;
         }
     }
-    .content{
+    .content {
         font-size: 20px;
     }
 }
 
-.opening-times{
+.opening-times {
     margin-top: 60px !important;
     padding-bottom: 30px;
     max-width: 1040px !important;
@@ -264,24 +267,24 @@ nav {
     position: relative;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1) !important;
     font-family: 'Vidaloka', serif;
-     
-    
-    .btn{
-    padding: 30px;
-    border: 2px solid black;
-       width: 100%;
-    
+
+
+    .btn {
+        padding: 30px;
+        border: 2px solid black;
+        width: 100%;
+
     }
-    .btn:hover{
+    .btn:hover {
         background-color: lightgray;
-        color: white; 
+        color: white;
     }
-    
-    .inner-section{
-      padding-top:80px;
-      padding-left: 3%;
-     
-        h1:after{
+
+    .inner-section {
+        padding-top: 80px;
+        padding-left: 3%;
+
+        h1:after {
             content: "";
             background-color: rgba(0, 0, 0, .25);
             display: block;
@@ -291,53 +294,81 @@ nav {
             margin-left: 40%;
             margin-top: 17px;
         }
-        p{
+        p {
             padding-top: 25px;
         }
     }
-    
-    .social-media-area{
-        .fa{
+
+    .social-media-area {
+        .fa {
             color: black;
             font-size: 30px;
             padding: 5px;
             padding-left: 50%;
             -webkit-transition: all 0.3s ease-in-out;
-            -o-transition:all 0.3s ease-in-out ;
-            transition:all 0.3s ease-in-out ;
+            -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
         }
-        .fa:hover{
+        .fa:hover {
             font-size: 35px;
-             -webkit-transition: all 0.3s ease-in-out;
-            -o-transition:all 0.3s ease-in-out ;
-            transition:all 0.3s ease-in-out ;
+            -webkit-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
             background-color: black;
-            color: white; 
+            color: white;
         }
-        
+
     }
 
 }
 
-.menu-hero-section{
-        background: url('../images/menu-heroSectionImg.jpg') no-repeat;
+
+
+.Menuhero-section {
+    background: url('../images/menu-heroSectionImg.jpg') no-repeat;
     min-height: 620px;
     background-size: cover;
     background-attachment: fixed;
 
+    .restaurant-title {
+        font-family: 'Merriweather', serif;
+        position: absolute;
+        margin-left: 20%;
+        margin-top: 200px;
+        color: white;
+        font-weight: 400;
+        font-size: 60px !important;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+
+
 }
 
-.menu-dark-overlay{
-    background-color: $dark-overlay;
-    min-height: 620px;
-    background-size: cover; 
-    background-attachment: fixed; 
+.menu-backroundsection {
+    background-color: rgb(239, 238, 233);
+    height: 5000px;
+    width: 100%;
+
+    .section-bg {
+        height: 4000px;
+    }
+
+    .menu-inner-section {
+        padding: 4%;
+
+        span {
+            margin-left: 100px;
+        }
+    }
+
 }
 
-footer{
-     position: relative;
-     z-index: 0; 
-     height: 100px;
-    width: 100%; 
-    background-color: black; 
+
+ footer {
+    position: relative;
+    z-index: 0;
+    height: 100px;
+    width: 100%;
+    background-color: black;
 }
