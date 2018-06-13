@@ -356,7 +356,10 @@ nav {
 
     .menu-inner-section {
         padding: 4%;
-
+        
+        .img-area {
+            padding-bottom: 60px;
+        }
         span {
             margin-left: 100px;
         }
@@ -365,7 +368,7 @@ nav {
 }
 
 
- footer {
+footer {
     position: relative;
     z-index: 0;
     height: 100px;
