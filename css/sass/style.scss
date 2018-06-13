@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
 @import url('https://fonts.googleapis.com/css?family=Vidaloka');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 $dark-overlay:rgba(0,
 0,
 0,
@@ -349,10 +350,7 @@ nav {
     background-color: rgb(239, 238, 233);
     height: 5000px;
     width: 100%;
-
-    .section-bg {
-        height: 4000px;
-    }
+    font-family: 'Merriweather', serif;
 
     .menu-inner-section {
         padding: 4%;
@@ -361,10 +359,15 @@ nav {
             padding-bottom: 60px;
         }
         span {
-            margin-left: 100px;
+            margin-left: 20%;
+            font-weight: bolder;
         }
     }
-
+    .menu-area{
+       margin-left: 10%;
+        margin-right: 2%;
+      
+    }
 }
 
 
