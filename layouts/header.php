@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="http://files.risotteriamelottinyc.com/200000406-8600187037/logo risotterira copia - Copia.JPG">
+   <link rel="shortcut icon" href="http://files.risotteriamelottinyc.com/200000406-8600187037/logo risotterira copia - Copia.JPG">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/FontAwesome.otf">

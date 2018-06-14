@@ -29,12 +29,12 @@ nav {
         li {
             a {
                 transition: all 0.2s ease-in-out !important;
-
+                   font-family: 'Merriweather', serif;
             }
             a:hover {
                 transition: all 0.2s ease-in-out !important;
                 color: orange !important;
-                font-family: 'Merriweather', serif;
+              
             }
         }
     }
@@ -348,7 +348,7 @@ nav {
 
 .menu-backroundsection {
     background-color: rgb(239, 238, 233);
-    height: 5000px;
+    height: 100%;
     width: 100%;
     font-family: 'Arapey', serif;
 
@@ -372,7 +372,7 @@ nav {
 
 .section-antipasi {
     background-color: rgb(239, 238, 233);
-    height: 5000px;
+    height: 100%;
     width: 100%;
     font-family: 'Arapey', serif;
 
