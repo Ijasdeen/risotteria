@@ -232,7 +232,7 @@
                 </div>
             </div> <!--<//Opening details>-->
         
-         </section>
+        </section>
     </div>
 
 </main>
