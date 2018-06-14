@@ -383,7 +383,7 @@ nav {
 //Service backround-section
 .service-backround-section{
     background-color: rgb(239, 238, 233);
-    height: 40em;
+    height: 400em;
     width: 100%;
     font-family: 'Arapey', serif;
 
@@ -392,10 +392,10 @@ nav {
     height: 10%;
     width: 100%;
     font-family: 'Arapey', serif;
-
+   margin-bottom: 60px;
     }
     .service-inner-section{
-        padding: 4%;
+        padding: 5%;
     }
     .content-area{
         padding-top: 30px;
@@ -403,6 +403,12 @@ nav {
             font-size: 1.5rem;
         }
     }
+}
+.delivery-side{
+    margin-top:120px
+}
+.delivery-inner-section{
+    
 }
  
 
