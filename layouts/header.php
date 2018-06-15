@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="shortcut icon" href="http://files.risotteriamelottinyc.com/200000406-8600187037/logo risotterira copia - Copia.JPG">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
@@ -30,13 +31,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="services.php">OUR SERVICES</a>
                     </li>
-                    <li class="nav-item">
-
-                        <a class="nav-link" href="#">OUR STORY IN ITALY</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">PHOTOGALLERY</a>
-                    </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="#">CONTACT</a>
                     </li>
