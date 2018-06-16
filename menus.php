@@ -272,7 +272,7 @@
 
                                 </div>
                                 <div class="btn-area py-2 px-2">
-                                    <a href="javascript:void(0);" class="btn">Newsletter</a>
+                                    <a href="contact.php" class="btn">Newsletter</a>
                                 </div>
                             </div>
                             <div class="col-md-4">

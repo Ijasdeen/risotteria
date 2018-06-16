@@ -1,13 +1,14 @@
 <?php
-require_once('connection.php');
-
-if($_SERVER['REQUEST_METHOD']=='POST'){
-    //Sending contact information to db
+ if($_SERVER['REQUEST_METHOD']=='POST'){
+    require_once('connection.php');
+    require_once('validation.php');
+     
+     //Sending contact information to db
 
 if(isset($_POST['enableContact']) && isset($_POST['userName']) && isset($_POST['email']) && isset($_POST['request'])){
-   $userName =$_POST['userName'];
-  $userEmail =$_POST['email'];
-     $request = $_POST['request'];
+   $userName =test_input($_POST['userName']);
+  $userEmail =test_input($_POST['email']);
+     $request =test_input($_POST['request']);    
     
     if(!filter_var($userEmail,FILTER_VALIDATE_EMAIL)){
         header("location:contact.php");
