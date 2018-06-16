@@ -608,6 +608,19 @@ nav {
             padding: 4%;
         }
 
+        .contactFinalMessage {
+            width: 100%;
+             text-align: center;
+            color: white; 
+           p {
+                color: rgb(40, 167, 120);
+                padding: 30px;
+                width: 80%;
+                border: 1px solid green;
+                background-color: rgb(236, 254, 240);
+            }
+        }
+
     }
 
 }
@@ -619,4 +632,4 @@ footer {
     width: 100%;
     bottom: 0;
     background-color: black;
-}    
+}

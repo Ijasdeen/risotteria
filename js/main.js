@@ -30,7 +30,7 @@ $(document).ready(function () {
                method:'POST',
                data:{enableContact:1,userName:userName,email:email,request:request},
                success:function(data){
-                   $(".inner-section").html(data);
+                   $(".email-us .inner-section").html(data);
                }
            })
         }
