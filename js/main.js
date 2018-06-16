@@ -1,7 +1,10 @@
 $(document).ready(function () {
+    
+    //<Sending email>
+    //find -> contact.php
     $("#contactForm").submit(function (event) {
         event.preventDefault();
-
+    
         let userName = $('#userName').val();
         let email = $("#email").val();
         let request = $("#request").val();
@@ -11,6 +14,13 @@ $(document).ready(function () {
             $('#userName').css("border","1px solid red");
             $('#userName').focus();
             return; 
+        }
+        else if(!isNaN(userName)){
+            $(".userNameMessage").html("<b>Only letters and space allowed</b>");
+            $('#userName').css("border","1px solid red");
+            $('#userName').focus();
+            return; 
+            
         }
         else if(email==''){
             $(".userEmailMessage").html("<b>Email required</b>");
@@ -31,10 +41,14 @@ $(document).ready(function () {
                data:{enableContact:1,userName:userName,email:email,request:request},
                success:function(data){
                    $(".email-us .inner-section").html(data);
+                   setTimeout(function(){
+                       window.location.reload();
+                   },3000)
                }
            })
         }
         
-        
+        $("#contactForm")[0].reset();
     });
 })
+//<Sending Email us>

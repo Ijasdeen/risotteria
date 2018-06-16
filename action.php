@@ -1,24 +1,36 @@
 <?php
 require_once('connection.php');
 
-if(isset($_POST['enableContact'])){
-   $userName =$_POST['request'];
+if($_SERVER['REQUEST_METHOD']=='POST'){
+    //Sending contact information to db
+
+if(isset($_POST['enableContact']) && isset($_POST['userName']) && isset($_POST['email']) && isset($_POST['request'])){
+   $userName =$_POST['userName'];
   $userEmail =$_POST['email'];
      $request = $_POST['request'];
     
-     $query="INSERT INTO contact (userName,userEmail,request) VALUES (:name,:email,:request)";
+    if(!filter_var($userEmail,FILTER_VALIDATE_EMAIL)){
+        header("location:contact.php");
+    }
+  
+    $query="INSERT INTO contact (userName,userEmail,request) VALUES (:name,:email,:request)";
     $statement= $connection->prepare($query);
     $statement->execute(['name' =>$userName,'email' =>$userEmail, 'request' =>$request]);
     
    if($statement){
-       echo '<div class="contactFinalMessage"><p></p></div>';
+       echo '<div class="contactFinalMessage"><p class="text text-center text-success">Send successfully</p></div>';
    }
     else {
-        echo '<div class="contactFinalMessage"><h1 class="text text-danger">Failed to send...</h1></div>';
+        echo '<div class="contactFinalMessage"><p class="text text-center text-dangers">Failed to send....</p></div>';
     }
     
+} 
+else {
+    //If any of fields is unset, it would be redirected to index.php
+    header("location:index.php");
 }
 
 $connection=null; 
- 
+
+}
 ?>

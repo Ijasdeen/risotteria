@@ -52,7 +52,7 @@
                      </div>
                     <div class="col-md-6">
                         <div class="form-area">
-                            <form method="POST" id="contactForm">
+                            <form method="POST" id="contactForm" autocomplete="off">
                                 <div class="form-group">
                                     <label for="nameandSurename">Name and Surname</label>
                                     <input type="text" class="form-control" name="userName" id="userName" required>
