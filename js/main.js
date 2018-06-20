@@ -1,5 +1,6 @@
 $(document).ready(function () {
     
+     
     //<Sending email>
     //find -> contact.php
     $("#contactForm").submit(function (event) {

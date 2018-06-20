@@ -1,6 +1,7 @@
 <?php require_once('layouts/header.php')?>
 <main>
-    <div class="container-fluid">
+   
+     <div class="container-fluid">
         <div class="hero-section">
             <div class="dark-overlay"></div>
             <div class="restaurant-title">
