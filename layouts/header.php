@@ -56,7 +56,24 @@
     </label>
 
     <div class="pure-drawer" data-position="left">
-    
+     <div class="pure-drawer-menu-contends">
+                    <ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.php">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menus.php">MENUS</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.php">OUR SERVICES</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.php">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
     </div>
     <div class="pure-pusher-container">
         <div class="pure-pusher">
