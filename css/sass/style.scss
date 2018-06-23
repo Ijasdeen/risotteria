@@ -651,8 +651,9 @@ nav {
 footer {
     position: relative;
     z-index: 0;
-    height: 100px;
+    min-height: 100px;
     width: 100%;
     bottom: 0;
     background-color: black;
+    padding: 20px;
 }
